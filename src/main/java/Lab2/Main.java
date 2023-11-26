@@ -73,7 +73,7 @@ public class Main {
 
 //        Task3
         System.out.println("Task3 ");
-        int [][] matrixC = new int[10000][10000];
+        int [][] matrixC = new int[100][100];
         int [] cRes = new int[matrixC.length];
         fillArrayWithRandom(matrixC);
         threadList = new LinkedList<>();
